@@ -12,18 +12,20 @@ $beigeColor: #F9F5E8;
 
 //header
 
-.header {
-  width: 1400px;
-}
+
+
 .header-title {
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: -1px;
 }
 .modificated {
   color: $primaryColor;
+  margin: 0;
 }
 .modify {
   background-color: $accentColor;
   color: $beigeColor;
+  margin: 0;
 }
 .header_nav-title {
   font-family: 'Nunito', sans-serif;
@@ -47,14 +49,25 @@ $beigeColor: #F9F5E8;
   background-color: $primaryColor;
 }
 .fa-play {
-  padding: 2px;
+  padding: 18px 0 0 22px;
+  color: $accentColor;
 }
 .play-vid {
   width: 54px;
   height: 54px;
-  background-color: $accentColor;
+  background-color: $lightGray;
   border-radius: 50%;
   position: relative;
-  margin: 0 auto;
-
+  margin: 0;
+  bottom: 415px;
+  left: 319px;
 }
+.header-revo {
+  padding: 76px 141px 2px 0;
+}
+.header_video-title {
+  font-size: 57px;
+  position: absolute;
+  top: 9em;
+}
+
