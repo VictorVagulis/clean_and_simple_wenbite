@@ -4,4 +4,57 @@ $darkGray: #151D28;
 $lightGray: #EDF0F5;
 $beigeColor: #F9F5E8;
 
-// не менять название!!
+// не менять название
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
+
+//header
+
+.header {
+  width: 1400px;
+}
+.header-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.modificated {
+  color: $primaryColor;
+}
+.modify {
+  background-color: $accentColor;
+  color: $beigeColor;
+}
+.header_nav-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  list-style: none;
+  color: $lightGray;
+}
+.header_nav_title-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  list-style: none;
+  font-size: 16px;
+  color: $lightGray;
+}
+.header-video {
+  display: flex;
+}
+.header_video-navbar {
+  max-width: 330px;
+  background-color: $primaryColor;
+}
+.fa-play {
+  padding: 2px;
+}
+.play-vid {
+  width: 54px;
+  height: 54px;
+  background-color: $accentColor;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+
+}
