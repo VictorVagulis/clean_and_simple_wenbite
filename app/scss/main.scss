@@ -1,73 +1,84 @@
-$primaryColor: #415167;
-$accentColor: #C7A17A;
-$darkGray: #151D28;
-$lightGray: #EDF0F5;
-$beigeColor: #F9F5E8;
+//fonts
 
-// не менять название
+@font-face {
+  font-family: "Quicksand-Bold";
+  font-weight: 700;
+  src: url("../fonts/quicksand/static/Quicksand-Bold.ttf");
+}
+@font-face {
+  font-family: "Quicksand-Medium";
+  font-weight: 500;
+  src: url("../fonts/quicksand/static/Quicksand-Medium.ttf");
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
 
 //header
 
-
-
-.header-title {
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: -1px;
-}
-.modificated {
-  color: $primaryColor;
-  margin: 0;
-}
-.modify {
-  background-color: $accentColor;
-  color: $beigeColor;
-  margin: 0;
-}
-.header_nav-title {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  list-style: none;
-  color: $lightGray;
-}
-.header_nav_title-text {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 300;
-  list-style: none;
-  font-size: 16px;
-  color: $lightGray;
-}
-.header-video {
+.headerNav {
   display: flex;
 }
-.header_video-navbar {
-  max-width: 330px;
-  background-color: $primaryColor;
-}
-.fa-play {
-  padding: 18px 0 0 22px;
-  color: $accentColor;
-}
-.play-vid {
-  width: 54px;
-  height: 54px;
-  background-color: $lightGray;
-  border-radius: 50%;
-  position: relative;
-  margin: 0;
-  bottom: 415px;
-  left: 319px;
-}
-.header-revo {
-  padding: 76px 141px 2px 0;
-}
-.header_video-title {
-  font-size: 57px;
-  position: absolute;
-  top: 9em;
-}
 
+.headerLogo {
+  background-color: #5E81FE;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin: auto 0 auto 117px;
+}
+.nav {
+  list-style: none;
+  display: flex;
+}
+.navIndent {
+  margin-right: 42px;
+}
+.navIndent:nth-last-child(-n+1) {
+  margin-right: 0;
+}
+.navMainElem {
+  font-family: "Quicksand-Bold",sans-serif;
+  color: #5e81fe;
+  font-size: 12px;
+}
+.navElem {
+  font-family: "Quicksand-Medium",sans-serif;
+  color: #697CA6;
+  font-size: 12px;
+}
+.navBtn {
+  margin: auto 0;
+  font-family: "Quicksand-Bold", sans-serif;
+  font-size: 13px;
+  color: #3A79FF;
+  background-color: #D2E1FF;
+  box-shadow: 0 0 0px -2px rgba(34, 60, 80, 0.2);
+  border: 0;
+  width: 113px;
+  height: 43px;
+}
+.socialNetworkBtn {
+  display: flex;
+  padding-left: 340px;
+}
+.headerNavigation {
+  padding-left: 34px;
+}
+.socialNetwork {
+  margin-right: 38px;
+}
+.socialNetwork:nth-last-child(-n+1) {
+  margin-right: 0;
+}
+.imgTg {
+  padding-top: 2px;
+}
+.imgTwtr {
+  padding-top: 4px;
+}
+.imgMdm {
+  padding-top: 6px;
+}
+.navButton {
+  margin: auto 0;
+  padding-left: 33px;
+}
