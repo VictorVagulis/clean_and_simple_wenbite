@@ -1,24 +1,52 @@
 //headerNav
 
 
-.navIndent {
-  list-style: none;
-  color: #fff;
-
-}
 .headerNav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav {
   display: flex;
   justify-content: space-between;
+  list-style: none;
+  color: #fff;
 }
-.headerButton {
-
+.headerBtn {
+  font-family: proxima-regular, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  background-color: #018ABE;
+  color: #fff;
+  border: none;
+  width: 155px;
+  height: 36px;
 }
 
 .navElem {
   font-family: proxima-regular, sans-serif;
-
+  font-size: 14px;
+  padding: 0 25px 0 25px;
+}
+.banner {
+  background-image: url("../../images/dest/banner.jpg");
+  max-width: 1296px;
+  height: 600px;
+}
+.bannerTitle {
+  display: flex;
+}
+.bannerText {
+  font-size: 24px;
+  margin: 0 ;
+}
+.rectangleStyle {
+  margin: auto 0;
+}
+.bannerSubText {
+  font-size: 64px;
+}
+.text {
+  font-family: el messiri, sans-serif;
+  color: #fff;
 }
