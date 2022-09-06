@@ -1,84 +1,31 @@
+@import '../../node_modules/bootstrap/scss/bootstrap-grid';
+@import './components/header';
+@import './pages/index';
+
 //fonts
 
 @font-face {
-  font-family: "Quicksand-Bold";
-  font-weight: 700;
-  src: url("../fonts/quicksand/static/Quicksand-Bold.ttf");
+  font-family: proxima-light;
+  font-weight: 300;
+  src: url("../fonts/proxima/proxima light/Proxima Nova Condensed Light.otf");
 }
 @font-face {
-  font-family: "Quicksand-Medium";
-  font-weight: 500;
-  src: url("../fonts/quicksand/static/Quicksand-Medium.ttf");
+  font-family: proxima-regular;
+  font-weight: 400;
+  src: url("../fonts/proxima/proxima reg/ProximaNova-Regular.otf");
 }
-
+@font-face {
+  font-family: proxima-bold;
+  font-weight: 700;
+  src: url("../fonts/proxima/proxima bold/Proxima Nova Bold.otf");
+}
+@font-face {
+  font-family: el messiri;
+  font-weight: 700;
+  src: url("../fonts/el messiri/ElMessiri-Bold.ttf");
+}
 
 //header
-
-.headerNav {
-  display: flex;
-}
-
-.headerLogo {
-  background-color: #5E81FE;
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  margin: auto 0 auto 117px;
-}
-.nav {
-  list-style: none;
-  display: flex;
-}
-.navIndent {
-  margin-right: 42px;
-}
-.navIndent:nth-last-child(-n+1) {
-  margin-right: 0;
-}
-.navMainElem {
-  font-family: "Quicksand-Bold",sans-serif;
-  color: #5e81fe;
-  font-size: 12px;
-}
-.navElem {
-  font-family: "Quicksand-Medium",sans-serif;
-  color: #697CA6;
-  font-size: 12px;
-}
-.navBtn {
-  margin: auto 0;
-  font-family: "Quicksand-Bold", sans-serif;
-  font-size: 13px;
-  color: #3A79FF;
-  background-color: #D2E1FF;
-  box-shadow: 0 0 0px -2px rgba(34, 60, 80, 0.2);
-  border: 0;
-  width: 113px;
-  height: 43px;
-}
-.socialNetworkBtn {
-  display: flex;
-  padding-left: 340px;
-}
-.headerNavigation {
-  padding-left: 34px;
-}
-.socialNetwork {
-  margin-right: 38px;
-}
-.socialNetwork:nth-last-child(-n+1) {
-  margin-right: 0;
-}
-.imgTg {
-  padding-top: 2px;
-}
-.imgTwtr {
-  padding-top: 4px;
-}
-.imgMdm {
-  padding-top: 6px;
-}
-.navButton {
-  margin: auto 0;
-  padding-left: 33px;
+body {
+  background-color: #162831;
 }
