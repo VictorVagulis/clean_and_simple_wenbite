@@ -1,6 +1,8 @@
 //headerNav
 
-
+.container {
+  max-width: 1296px;
+}
 .headerNav {
   display: flex;
   justify-content: space-between;
@@ -21,20 +23,21 @@
   border: none;
   width: 155px;
   height: 36px;
+  border-radius: 5px;
 }
+
+//banner1
 
 .navElem {
   font-family: proxima-regular, sans-serif;
   font-size: 14px;
   padding: 0 25px 0 25px;
 }
-.banner {
-  background-image: url("../../images/dest/banner.jpg");
-  max-width: 1296px;
-  height: 600px;
-}
 .bannerTitle {
   display: flex;
+  position: absolute;
+  bottom: 17em;
+  left: 46em;
 }
 .bannerText {
   font-size: 24px;
@@ -45,8 +48,34 @@
 }
 .bannerSubText {
   font-size: 64px;
+  position: absolute;
+  top: 1em;
+  max-width: 657px;
+  text-align: center;
+  margin: 0;
 }
 .text {
   font-family: el messiri, sans-serif;
   color: #fff;
 }
+.bannerFoto {
+  border-radius: 15px;
+
+}
+.rectLeft {
+  padding-right: 66px;
+}
+.rectRight {
+  padding-left: 66px;
+}
+.headerBanner {
+  padding-top: 46px;
+}
+
+//banner2
+
+.banner2Title {
+
+}
+
+
