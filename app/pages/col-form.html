@@ -1,15 +1,11 @@
-@@include('components/header/header-1.html')
-            <div class="bannerNews">
-                <div class="bannerHeader2 modify">
-                    <div class="bannerHeader2Container">
-                        <img  class="bannerRectangleBlue" src="./images/dest/Rectangle-blue-left.svg" alt="">
-                        <p class="banner2Title text modify2">Новый формат сеансов</p>
-                        <img class="bannerRectangleBlue" src="./images/dest/Rectangle-blue-right.svg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
+@@include('components/header/header.html', {
+"isWithBorder": true
+})
+
+@@include('components/page-title.html', {
+"title": "Новости"
+})
+    <div class="container">
             <div class="colCotainer">
                 <div class="row">
                     <div class="col-xxl-6">
@@ -37,6 +33,4 @@
                 </div>
             </div>
             <p class="copyright">&copy 2018-2022 RitmStyle</p>
-        </div>
-    </div>
-</header>
+</div>

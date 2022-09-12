@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./css/app.min.css">
@@ -12,7 +12,14 @@
 <header>
     <div class="header">
         <div class="container">
-            <div class="headerNav">
+
+            @@if (isWithBorder) {
+                <div class="headerNav addition">
+            }
+
+            @@if (!isWithBorder) {
+                <div class="headerNav">
+            }
                 <div class="headerLogo">
                     <a href="index.html">
                         <img src="./images/dest/Logo.svg" alt="">
@@ -20,13 +27,39 @@
                 </div>
                 <div class="headerNavigation">
                     <ul class="nav">
-                        <li><a class="navElem" href="./index.html">Главная</a></li>
-                        <li class="navElem">Сеансы</li>
-                        <li class="navElem">Отзывы</li>
-                        <li class="navElem">Контакты</li>
-                        <li><a class="navElem" href="./news.html">Новости</a></li>
-                        <li class="navElem">Обо мне</li>
-                        <li><a class="navElem" href="./blog.html">Блог</a></li>
+                        <li>
+                            <a class="navElem" href="./index.html">
+                                Главная
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="navElem">Сеансы</a>
+                        </li>
+                        <li>
+                            <a href="#" class="navElem">
+                                Отзывы
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="navElem">
+                                Контакты
+                            </a>
+                        </li>
+                        <li>
+                            <a class="navElem" href="./news.html">
+                                Новости
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="navElem">
+                            Обо мне
+                            </a>
+                        </li>
+                        <li>
+                            <a class="navElem" href="./blog.html">
+                                Блог
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="headerButton">

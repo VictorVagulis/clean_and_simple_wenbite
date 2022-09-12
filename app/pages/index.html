@@ -1,7 +1,61 @@
-@@include('components/header/header.html')
+@@include('components/header/header.html', {
+    "isWithBorder": false
+})
 
-@@include('components/main.html')
+<main>
+    <div class="headerBanner">
+        <div class="bannerFotoContainer">
+            <img class="bannerFoto" src="./images/dest/banner.jpg" alt="">
+        </div>
+        <div class="bannerTitle">
+            <div class="rectangleStyle rectLeft">
+                <img src="./images/dest/Rectangle-left.svg" alt="#">
+            </div>
+            <div>
+                <p class="bannerText text">Укрепление здоровья</p>
+            </div>
+            <div class="rectangleStyle rectRight">
+                <img src="./images/dest/Rectangle-right.svg" alt="#">
+            </div>
+            <p class="bannerSubText text">Акватерапия RitmStyle</p>
+        </div>
+    </div>
+    <div class="banner2">
+        <div class="bannerHeader2">
+            <div class="bannerHeader2Container">
+                <img  class="bannerRectangleBlue" src="./images/dest/Rectangle-blue-left.svg" alt="">
+                <p class="banner2Title text">Сеансы RitmStyle</p>
+                <img class="bannerRectangleBlue" src="./images/dest/Rectangle-blue-right.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-6 col-sm-12 col-12">
+                <div style="display: flex; flex-direction: column" class="cards">
+                    <div style="height: 400px; background-color: #d50404;width: auto" class="card">
+                        <img src="./images/dest/big-columg.jpg" alt="">
+                    </div>
+                    <div style="height: 400px; background-color: #37ff00;width: auto" class="card">
+                        <img src="./images/dest/big-columg.jpg" alt="">
+                    </div>
+                </div>
+            </div>
 
+
+            <div class="col-xl-4 col-lg-6 col-sm-12 col-12">
+                <div style="height: 100%; background-color: #12faa8;width: auto" class="card">
+                    <img src="./images/dest/big-columg.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-sm-12 col-12">
+                <div style="height: 300px; background-color: #fff;width: auto" class="card">
+                    <img src="./images/dest/big-columg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
 @@include('components/footer.html')
 

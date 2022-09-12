@@ -1,6 +1,8 @@
 @import '../../node_modules/bootstrap/scss/bootstrap-grid';
 @import './components/header';
 @import './pages/index';
+@import './components/block-news';
+@import './components/page-title';
 
 //fonts
 
@@ -28,4 +30,14 @@
 //header
 body {
   background-color: #162831;
+}
+a {
+  text-decoration: none;
+}
+
+.bannerHeader2 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding-top: 100px;
 }

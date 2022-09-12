@@ -1,0 +1,22 @@
+.pageTitle {
+  .pageTitleWrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 100px;
+  }
+
+  .pageTitleContainer {
+    display: flex;
+  }
+
+  .images {
+    margin: auto 0;
+  }
+
+  .title {
+    font-size: 42px;
+    padding: 0 45px 22px 45px;
+  }
+
+}

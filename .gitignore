@@ -6,3 +6,4 @@ app/js/app.min.js
 log
 app/*.html
 app/images/dest
+dist
