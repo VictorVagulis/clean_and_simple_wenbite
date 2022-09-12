@@ -1,8 +1,6 @@
 //headerNav
 
-.container {
-  max-width: 1296px;
-}
+
 .headerNav {
   display: flex;
   justify-content: space-between;
@@ -32,6 +30,8 @@
   font-family: proxima-regular, sans-serif;
   font-size: 14px;
   padding: 0 25px 0 25px;
+  text-decoration: none;
+  color: #fff;
 }
 .bannerTitle {
   display: flex;
@@ -74,8 +74,140 @@
 
 //banner2
 
-.banner2Title {
 
+.bannerHeader2 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding-top: 100px;
 }
+.bannerHeader2Container {
+  display: flex;
+}
+.banner2Title {
+  font-size: 42px;
+  padding: 0 45px 0 45px;
+}
+.bannerRectangleBlue {
+  margin: auto 0;
+}
+
+
+//news
+.addition {
+  padding-bottom: 30px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #fff;
+}
+.modify {
+  padding: 0;
+}
+.modify2 {
+  padding: 0 45px 22px 45px;
+}
+.theDate {
+  font-family: proxima-bold, sans-serif;
+  color: #fff;
+  margin: auto;
+  padding: 6px 12px 5px 12px;
+  font-size: 13px;
+}
+.newsTheDateCol {
+  background-color: #018ABE;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 8% 0 0 9%;
+}
+.newsImg {
+  border-radius: 12px;
+}
+.columnStyle {
+  font-size: 21px;
+  padding: 28% 0 0 8%;
+}
+.newsBackgroundCol {
+  background-image: url("../../images/dest/default-column.jpg");
+  height: 258px;
+  border-radius: 14px;
+  max-width: 416px;
+  margin-bottom: 6%;
+}
+.newsColumn {
+  padding-bottom: 120px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #fff;
+}
+.copyright {
+  font-family: proxima-regular, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 30px 0;
+}
+.linkStyle {
+  text-decoration: none;
+}
+
+//col-form
+
+.modify3 {
+  margin: 0;
+}
+.textContainer {
+  max-width: 526px;
+}
+.colTitle {
+  font-size: 24px;
+  padding-top: 32px;
+}
+.textCol {
+  font-family: proxima-light, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 26px;
+}
+.imageContainer {
+  padding-top: 53px;
+}
+.imageColStyle {
+  border-radius: 12px;
+}
+.colCotainer {
+  padding-bottom: 161px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #fff;
+}
+.leftColHeight {
+  max-height: 501px;
+}
+
+//blog
+
+.widthText {
+  max-width: 564px;
+}
+.buttonBlog {
+  color: #fff;
+  font-family: proxima-bold, sans-serif;
+  font-size: 14px;
+  width: 136px  ;
+}
+.bigColContainer {
+  padding: 50px 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #018ABE;
+  border-radius: 20px;
+}
+.bigColImage {
+  padding: 0;
+}
+.contMargin {
+  margin-top: 42px;
+}
+
+
 
 
