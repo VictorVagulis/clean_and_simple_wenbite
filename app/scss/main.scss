@@ -3,6 +3,8 @@
 @import './pages/index';
 @import './components/block-news';
 @import './components/page-title';
+@import './components/news';
+@import './components/column';
 
 //fonts
 
@@ -11,16 +13,19 @@
   font-weight: 300;
   src: url("../fonts/proxima/proxima light/Proxima Nova Condensed Light.otf");
 }
+
 @font-face {
   font-family: proxima-regular;
   font-weight: 400;
   src: url("../fonts/proxima/proxima reg/ProximaNova-Regular.otf");
 }
+
 @font-face {
   font-family: proxima-bold;
   font-weight: 700;
   src: url("../fonts/proxima/proxima bold/Proxima Nova Bold.otf");
 }
+
 @font-face {
   font-family: el messiri;
   font-weight: 700;
@@ -28,9 +33,14 @@
 }
 
 //header
+
+
 body {
   background-color: #162831;
+  max-width: 1298px;
+  margin: 0 auto;
 }
+
 a {
   text-decoration: none;
 }
@@ -41,3 +51,20 @@ a {
   justify-content: space-around;
   padding-top: 100px;
 }
+
+
+.dateContainer {
+  background-color: #018ABE;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 8% 0 0 9%;
+}
+
+.date {
+  font-family: proxima-bold, sans-serif;
+  color: #fff;
+  margin: auto;
+  padding: 6px 12px 5px 12px;
+  font-size: 13px;
+}
+

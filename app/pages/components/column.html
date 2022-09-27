@@ -1,0 +1,10 @@
+@@if (bigColumn) {
+<div class="columnContainer" style="background-image: url(@@image); height: 540px; border-radius: 15px">
+    <p class="titleBigColumn text">@@title</p>
+</div>
+}
+@@if (!bigColumn) {
+<div class="columnContainer" style="background-image: url(@@image); height:258px; border-radius: 15px">
+    <p class="title text">@@title</p>
+</div>
+}

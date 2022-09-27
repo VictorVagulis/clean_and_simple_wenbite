@@ -1,56 +1,164 @@
-@@include('components/header/header.html', {
+@@include('components/header.html', {
     "isWithBorder": false
 })
 
 <main>
-    <div class="headerBanner">
-        <div class="bannerFotoContainer">
-            <img class="bannerFoto" src="./images/dest/banner.jpg" alt="">
-        </div>
-        <div class="bannerTitle">
-            <div class="rectangleStyle rectLeft">
-                <img src="./images/dest/Rectangle-left.svg" alt="#">
-            </div>
-            <div>
-                <p class="bannerText text">Укрепление здоровья</p>
-            </div>
-            <div class="rectangleStyle rectRight">
-                <img src="./images/dest/Rectangle-right.svg" alt="#">
-            </div>
-            <p class="bannerSubText text">Акватерапия RitmStyle</p>
-        </div>
-    </div>
-    <div class="banner2">
-        <div class="bannerHeader2">
-            <div class="bannerHeader2Container">
-                <img  class="bannerRectangleBlue" src="./images/dest/Rectangle-blue-left.svg" alt="">
-                <p class="banner2Title text">Сеансы RitmStyle</p>
-                <img class="bannerRectangleBlue" src="./images/dest/Rectangle-blue-right.svg" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-4 col-lg-6 col-sm-12 col-12">
-                <div style="display: flex; flex-direction: column" class="cards">
-                    <div style="height: 400px; background-color: #d50404;width: auto" class="card">
-                        <img src="./images/dest/big-columg.jpg" alt="">
-                    </div>
-                    <div style="height: 400px; background-color: #37ff00;width: auto" class="card">
-                        <img src="./images/dest/big-columg.jpg" alt="">
+    <div class="headerTitle">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="bannerFotoContainer">
+                        <div class="bannerWrapper">
+                            <div class="bannerTitle">
+                                <div class="rectangleStyle rectLeft">
+                                    <img src="./images/dest/Rectangle-left.svg" alt="#">
+                                </div>
+                                <div>
+                                    <p class="bannerText text">
+                                        Укрепление здоровья
+                                    </p>
+                                </div>
+                                <div class="rectangleStyle rectRight">
+                                    <img src="./images/dest/Rectangle-right.svg" alt="#">
+                                </div>
+                            </div>
+                            <div class="bannerSubTextWrapper">
+                                <p class="bannerSubText text">
+                                    Акватерапия RitmStyle
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="bannerHeader">
+            @@include('components/page-title.html', {
+            'title': 'Сеансы RitmStyle'
+            })
 
-
-            <div class="col-xl-4 col-lg-6 col-sm-12 col-12">
-                <div style="height: 100%; background-color: #12faa8;width: auto" class="card">
-                    <img src="./images/dest/big-columg.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-4">
+                        @@include('components/column.html', {
+                        "bigColumn" : true,
+                        "image": "../images/dest/big-column.jpg",
+                        "title": "Стандартный RitmStyle"
+                        })
+                    </div>
+                    <div class="col-xxl-4">
+                        <div class="row flex-column">
+                            <div class="col">
+                                @@include('components/column.html', {
+                                "bigColumn" : false,
+                                "image": "../images/dest/default-column.jpg",
+                                "title": "RitmStyle для пар"
+                                })
+                            </div>
+                            <div class="col">
+                                @@include('components/column.html', {
+                                "bigColumn" : false,
+                                "image": "../images/dest/default-column.jpg",
+                                "title": "RitmStyle для беременных"
+                                })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4">
+                        <div class="row flex-column">
+                            <div class="col">
+                                @@include('components/column.html', {
+                                "bigColumn" : false,
+                                "image": "../images/dest/default-column.jpg",
+                                "title": "RitmStyle с полным погружением под воду"
+                                })
+                            </div>
+                            <div class="col">
+                                @@include('components/column.html', {
+                                "bigColumn" : false,
+                                "image": "../images/dest/default-column.jpg",
+                                "title": "RitmStyle + красочная подводная фотосессия"
+                                })
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 col-sm-12 col-12">
-                <div style="height: 300px; background-color: #fff;width: auto" class="card">
-                    <img src="./images/dest/big-columg.jpg" alt="">
+        </div>
+    </div>
+    <div class="descriptionSite">
+        <div class="title">
+            @@include('components/page-title.html', {
+            "title": "Об RitmStyle"
+            })
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-5">
+                    <div class="containerColumn">
+                        <h3 class="titleColumn">
+                            RitmStyle массаж
+                        </h3>
+                        <p class="textColumn">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed tellus eget mattis nibh quam. Eu ornare nunc, id est. Erat consectetur etiam a sit diam in imperdiet amet. Diam nisl, ipsum suscipit amet. Eleifend amet habitasse proin quis adipiscing.
+                            Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet diam, non augue massa. Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xxl-5">
+                    <div class="containerColumn">
+                        <div class="image"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-5">
+                    <div class="containerColumn">
+                        <div class="image2"></div>
+                    </div>
+                </div>
+                <div class="col-xxl-5">
+                    <div class="containerColumn2">
+                        <h3 class="titleColumn">
+                            RitmStyle гидротерапия
+                        </h3>
+                        <p class="textColumn">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cras quis ac a non ut viverra turpis eget. Hendrerit quis pulvinar massa ipsum sem. Donec posuere nulla enim non neque etiam. Eros arcu, pulvinar penatibus luctus ridiculus sagittis vel nunc hac. Nisi, diam tincidunt dui viverra. Eget quis ultricies sem nunc risus senectus luctus ultricies. Enim feugiat pharetra pharetra et.<br>
+                            Pulvinar arcu at morbi posuere cursus. Fermentum est sit enim velit ornare molestie. Ipsum nisi id sed tempor elementum. Mi nunc eget pellentesque ipsum. Suspendisse risus a id vel massa tincidunt. Hendrerit blandit in augue vel mi quam magna egestas. Fringilla ac lacus viverra ullamcorper leo, enim vitae id aliquam. Magna sed tristique tellus enim, netus tempor at elit dui. Ullamcorper hendrerit feugiat libero tellus diam egestas dui tellus odio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="priceWrapper">
+        <div class="container">
+            @@include('components/page-title.html', {
+            "title": "Стоимость сеансов"
+            })
+            <div class="row flex-column">
+                <div class="row">
+                    <div class="col-xxl-4">
+                        <div class="textWrapper">
+                            <div class="icon">
+                                <img src="../images/dest/Rectangle-blue-left.svg">
+                            </div>
+                            <p class="priceTitle">
+                                RitmStyle с погружением
+                            </p>
+                            <p class="price">1000р.</p>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5">
+                        <div class="image"></div>
+                        <div class="imageTitle">
+                            <p class="priceText">
+                                Подарочный сертификат
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -33,11 +34,10 @@
   text-decoration: none;
   color: #fff;
 }
-.bannerTitle {
+.bannerWrapper {
   display: flex;
-  position: absolute;
-  bottom: 17em;
-  left: 46em;
+  flex-direction: column;
+  padding-top: 136px;
 }
 .bannerText {
   font-size: 24px;
@@ -48,18 +48,18 @@
 }
 .bannerSubText {
   font-size: 64px;
-  position: absolute;
-  top: 1em;
-  max-width: 657px;
+  max-width: 587px;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
 }
 .text {
   font-family: el messiri, sans-serif;
   color: #fff;
 }
-.bannerFoto {
+.bannerFotoContainer {
+  background-image: url("../../images/dest/banner.jpg");
   border-radius: 15px;
+  height: 600px;
 
 }
 .rectLeft {
@@ -68,8 +68,21 @@
 .rectRight {
   padding-left: 66px;
 }
-.headerBanner {
+.headerTitle {
   padding-top: 46px;
+}
+
+.bannerSubTextWrapper {
+  display: flex;
+
+}
+
+.bannerTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+
 }
 
 //banner2
@@ -156,10 +169,92 @@
 .bigColImage {
   padding: 0;
 }
+
 .contMargin {
   margin-top: 42px;
 }
 
+
+//descriptionSite
+
+.descriptionSite {
+  .title {
+    font-size: 24px;
+  }
+
+  .textColumn {
+    font-family: proxima-light, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    width: 466px;
+    margin-top: 43px;
+    line-height: 25px;
+  }
+
+  .image {
+    background-image: url("../../images/dest/water-1.png");
+    height: 365px;
+  }
+
+  .image2 {
+    background-image: url("../../images/dest/water-2.png");
+    height: 400px;
+    margin-top: 96px;
+  }
+
+  .titleColumn {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 67px;
+  }
+
+  .containerColumn2 {
+    margin: 116px 0 0 64px;
+  }
+
+  .containerColumn {
+    padding: 31px 0 0 87px;
+  }
+}
+
+//price
+
+.priceWrapper {
+  .textWrapper {
+    display: flex;
+  }
+
+  .image {
+    background-image: url("../../images/dest/certificate.png");
+    height: 396px;
+  }
+
+  .textWrapper {
+
+  }
+
+  .priceTitle {
+    font-family: proxima-regular, sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .price {
+    font-family: el messiri, sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .priceText {
+    font-family: el messiri, sans-serif;
+    font-size: 21px;
+    color: #fff;
+  }
+
+  .icon {
+    margin: auto 0;
+  }
+}
 
 
 
