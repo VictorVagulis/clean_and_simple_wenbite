@@ -1,0 +1,19 @@
+.leftColHeight {
+  max-height: 501px;
+}
+
+.imageContainer {
+  padding-top: 53px;
+}
+
+.imageColStyle {
+  border-radius: 12px;
+}
+
+//media
+
+@media screen and (max-width: 1405px) {
+  .imageColStyle {
+    width: 80%;
+  }
+}

@@ -1,0 +1,255 @@
+.headerTitle {
+
+  .bannerWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 136px;
+  }
+
+  .bannerText {
+    font-size: 24px;
+    margin: 0 ;
+  }
+
+  .rectangleStyle {
+    margin: auto 0;
+  }
+
+  .bannerSubText {
+    font-size: 64px;
+    max-width: 587px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .bannerFotoContainer {
+    background-image: url("../../images/dest/banner.jpg");
+    border-radius: 15px;
+    height: 600px;
+
+  }
+
+  .rectLeft {
+    padding-right: 66px;
+  }
+
+  .rectRight {
+    padding-left: 66px;
+  }
+
+  .headerTitle {
+    padding-top: 46px;
+  }
+
+  .bannerSubTextWrapper {
+    display: flex;
+
+  }
+
+  .bannerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: 779px) {
+    .bannerFotoContainer {
+      width: 270px;
+    }
+  }
+}
+
+
+//descriptionSite
+
+.descriptionSite {
+  .title {
+    font-size: 24px;
+  }
+
+  .textColumn {
+    font-family: proxima-light, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    width: 466px;
+    margin-top: 43px;
+    line-height: 25px;
+  }
+
+  .image {
+    background-image: url("../../images/dest/water-1.png");
+    height: 365px;
+  }
+
+  .image2 {
+    background-image: url("../../images/dest/water-2.png");
+    height: 400px;
+    margin-top: 96px;
+  }
+
+  .titleColumn {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 67px;
+  }
+
+  .containerColumn2 {
+    margin: 126px 0 0 -50px;
+  }
+
+  .containerColumn {
+    padding-top: 31px;
+  }
+
+  .containerImage {
+    padding-top: 40px;
+  }
+
+  .containerImage2 {
+    padding-top: 10px;
+  }
+  @media screen and (max-width: 1279px) {
+    .image {
+      width: 114%
+    }
+    .image2 {
+      width: 114%
+    }
+
+  }
+}
+
+//price
+
+.priceWrapper {
+  .textWrapper {
+    display: flex;
+  }
+
+  .icon {
+    margin: auto 0;
+  }
+
+  .priceTitle {
+    font-family: proxima-regular, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 14px;
+    width: 320px;
+  }
+
+  .priceText {
+    font-family: el messiri, sans-serif;
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .price {
+    font-family: el messiri, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 38px;
+  }
+
+  .priceContainer {
+    list-style-type: none;
+    padding-top: 94px;
+  }
+
+  .wrapperPrice {
+    padding-top: 116px;
+  }
+
+  .imageTitle {
+    padding: 30px 0 0 10px;
+  }
+
+  .textTab {
+    display: none;
+    font-family: el messiri, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .textTabActive {
+    display: block;
+  }
+
+}
+
+
+//navigation
+
+.navigation {
+
+  padding-top: 150px;
+
+  .maps {
+    border: none;
+    border-radius: 15px;
+  }
+
+  .entryWrapper {
+    width: 392px;
+    height: 290px;
+    background-color: #018abe;
+    border-radius: 14px;
+  }
+
+  .modify {
+    margin-bottom: 24px;
+  }
+  .title {
+    margin: 0;
+    font-family: el messiri, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    padding: 30px 0 21px 0;
+  }
+  .text {
+    font-family: proxima-regular, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding:13px 0 8px 23px;
+    margin: 0;
+  }
+
+  .list {
+    margin: 0;
+  }
+
+  .listText {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .btn {
+    width: 155px;
+    height: 36px;
+    border-radius: 4px;
+    border: none;
+    font-family: proxima-bold, sans-serif;
+    color: #018abe;
+    background-color: #fff;
+    font-size: 13px;
+    padding: 11px;
+  }
+
+  .btn:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    color: #fff;
+    background-color: #018abe;
+  }
+
+  .btnWrapper {
+    margin-top: 30px;
+  }
+}
+
+

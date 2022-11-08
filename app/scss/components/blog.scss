@@ -1,0 +1,89 @@
+.colContainer {
+  padding-bottom: 161px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #fff;
+
+
+  .bigContainer {
+    padding: 50px 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #018ABE;
+    border-radius: 20px;
+  }
+
+  .containerContent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .imageContent {
+    border-radius: 13px;
+  }
+
+  .information {
+    max-height: 501px;
+  }
+
+  .widthText {
+    max-width: 564px;
+  }
+
+  .buttonBlog {
+    color: #fff;
+    font-family: proxima-bold, sans-serif;
+    font-size: 14px;
+    width: 136px  ;
+  }
+
+  .contMargin {
+    margin-top: 42px;
+  }
+
+  .widthText {
+    max-width: 564px;
+  }
+
+
+
+  @media screen and (max-width: 1199px) {
+
+    .imageContent {
+      max-width: 133%;
+    }
+
+    .textCol {
+      line-height: normal;
+    }
+
+    .colTitle {
+      font-size: 22px;
+      padding-top: 0;
+    }
+
+
+  }
+
+  @media screen and (max-width: 991px) {
+    .colTitle {
+      font-size: 15px;
+      margin-top: 10px;
+    }
+
+    .textCol {
+      font-size: 12px;
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .containerContent {
+      flex-direction: column-reverse;
+    }
+    .imageWrapper {
+      padding-top: 40px;
+    }
+  }
+
+}

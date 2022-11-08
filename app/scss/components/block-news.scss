@@ -11,4 +11,25 @@
     font-size: 21px;
     padding: 28% 0 0 8%;
   }
+
+
+  @media screen and (max-width: 993px) {
+    .title {
+      font-size: 15px;
+    }
+
+    .newsContainer {
+      height: 150px;
+    }
+  }
+
+  @media screen and (max-width: 607px) {
+    .title {
+      font-size: 11px;
+    }
+
+    .newsContainer {
+      height: 119px;
+    }
+  }
 }

@@ -5,6 +5,10 @@
 @import './components/page-title';
 @import './components/news';
 @import './components/column';
+@import './components/blog';
+@import './components/index';
+@import './components/footer';
+@import './components/current-news';
 
 //fonts
 
@@ -66,5 +70,67 @@ a {
   margin: auto;
   padding: 6px 12px 5px 12px;
   font-size: 13px;
+}
+
+.textContainer {
+  max-width: 100%;
+}
+
+.colTitle {
+  font-size: 24px;
+  padding-top: 32px;
+}
+
+.text {
+  font-family: el messiri, sans-serif;
+  color: #fff;
+}
+
+.textCol {
+  font-family: proxima-light, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 26px;
+}
+
+.headerBtn {
+  font-family: proxima-regular, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  background-color: #018ABE;
+  color: #fff;
+  border: none;
+  width: 155px;
+  height: 36px;
+  border-radius: 5px;
+}
+
+.copyright {
+  font-family: proxima-regular, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 30px 0;
+}
+
+.modify3 {
+  margin: 0 !important;
+}
+
+
+
+
+//media
+
+@media screen and (max-width: 1280px){
+  .map {
+    width: 96%;
+    height: 603px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .date {
+    font-size: 8px;
+  }
 }
 

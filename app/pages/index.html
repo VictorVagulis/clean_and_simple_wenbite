@@ -6,7 +6,7 @@
     <div class="headerTitle">
         <div class="container">
             <div class="row">
-                <div class="col-xxl-12">
+                <div class="col-xxl-12 col-xl-12 col-lg-12">
                     <div class="bannerFotoContainer">
                         <div class="bannerWrapper">
                             <div class="bannerTitle">
@@ -40,15 +40,15 @@
             })
 
             <div class="container">
-                <div class="row">
-                    <div class="col-xxl-4">
+                <div class="row ">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4">
                         @@include('components/column.html', {
                         "bigColumn" : true,
                         "image": "../images/dest/big-column.jpg",
                         "title": "Стандартный RitmStyle"
                         })
                     </div>
-                    <div class="col-xxl-4">
+                    <div class="col-xxl-4  col-xl-4 col-lg-4 col-md-4 col-sm-4">
                         <div class="row flex-column">
                             <div class="col">
                                 @@include('components/column.html', {
@@ -66,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-4">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4">
                         <div class="row flex-column">
                             <div class="col">
                                 @@include('components/column.html', {
@@ -96,7 +96,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-xxl-5">
+                <div class="offset-1 col-xxl-4 col-xl-4 col-lg-4">
                     <div class="containerColumn">
                         <h3 class="titleColumn">
                             RitmStyle массаж
@@ -107,19 +107,19 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-xxl-5">
-                    <div class="containerColumn">
+                <div class=" offset-1 col-xxl-5 col-xl-5 col-lg-5">
+                    <div class="containerImage">
                         <div class="image"></div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xxl-5">
-                    <div class="containerColumn">
+                <div class="offset-1 col-xxl-5 col-xl-5 col-lg-5">
+                    <div class="containerImage2">
                         <div class="image2"></div>
                     </div>
                 </div>
-                <div class="col-xxl-5">
+                <div class=" offset-1 col-xxl-5 col-xl-5 col-lg-5">
                     <div class="containerColumn2">
                         <h3 class="titleColumn">
                             RitmStyle гидротерапия
@@ -140,23 +140,179 @@
             })
             <div class="row flex-column">
                 <div class="row">
-                    <div class="col-xxl-4">
-                        <div class="textWrapper">
-                            <div class="icon">
-                                <img src="../images/dest/Rectangle-blue-left.svg">
+                    <div class="offset-1 col-xxl-4 col-xl-4 col-lg-4">
+                        <div class="wrapperPrice">
+
+                            <div class="textWrapper">
+                                <div class="icon">
+                                    <img src="../images/dest/Rectangle-blue-left.svg" alt="">
+                                </div>
+                                <div>
+                                    <a href="#tab1" class="tabTrigger">
+                                        <p class="priceTitle">
+                                            RitmStyle с погружением
+                                        </p>
+                                    </a>
+                                    <p id="tab1" class="textTab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum maiores modi nam.</p>
+                                </div>
+                                <div>
+                                    <p class="price">1000р.</p>
+                                </div>
                             </div>
-                            <p class="priceTitle">
-                                RitmStyle с погружением
-                            </p>
-                            <p class="price">1000р.</p>
+
+                            <div class="textWrapper">
+                                <div class="icon">
+                                    <img src="../images/dest/Rectangle-blue-left.svg" alt="">
+                                </div>
+                                <div>
+                                    <a href="#tab2" class="tabTrigger">
+                                        <p class="priceTitle">
+                                            Абонемент на RitmStyle
+                                        </p>
+                                    </a>
+                                    <p id="tab2" class="textTab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum maiores modi nam.</p>
+                                </div>
+                                <div>
+                                    <p class="price">5500р.</p>
+                                </div>
+                            </div>
+
+                            <div class="textWrapper">
+                                <div class="icon">
+                                    <img src="../images/dest/Rectangle-blue-left.svg" alt="">
+                                </div>
+                                <div>
+                                    <a href="#tab3" class="tabTrigger">
+                                        <p class="priceTitle">
+                                            RitmStyle для пар
+                                        </p>
+                                    </a>
+                                    <p id="tab3" class="textTab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum maiores modi nam.</p>
+                                </div>
+                                <div>
+                                    <p class="price">6000р.</p>
+                                </div>
+                            </div>
+
+                            <div class="textWrapper">
+                                <div class="icon">
+                                    <img src="../images/dest/Rectangle-blue-left.svg" alt="">
+                                </div>
+                                <div>
+                                    <a href="#tab4" class="tabTrigger">
+                                        <p class="priceTitle">
+                                            RitmStyle для беременных
+                                        </p>
+                                    </a>
+                                    <p id="tab4" class="textTab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum maiores modi nam.</p>
+                                </div>
+                                <div>
+                                    <p class="price">13500р.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="textWrapper">
+                                <div class="icon">
+                                    <img src="../images/dest/Rectangle-blue-left.svg" alt="">
+                                </div>
+                                <div>
+                                    <a href="#tab5" class="tabTrigger">
+                                        <p class="priceTitle">
+                                            RitmStyle +  фотосессия
+                                        </p>
+                                    </a>
+                                    <p id="tab5" class="textTab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum maiores modi nam.</p>
+                                </div>
+                                <div>
+                                    <p class="price">11500р.</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="col-xxl-5">
-                        <div class="image"></div>
+<!--                    <div class="col-xxl-1 col-xl-1 col-lg-1">-->
+<!--                        <ul class="priceContainer">-->
+<!--                            <li class="price"><p class="price">1000р.</p></li>-->
+<!--                            <li class="price"><p>5500р.</p></li>-->
+<!--                            <li class="price"><p>6000р.</p></li>-->
+<!--                            <li class="price"><p>13500р.</p></li>-->
+<!--                            <li class="price"><p>11500р.</p></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+                    <div class="offset-1 col-xxl-5 col-xl-5 col-lg-3">
                         <div class="imageTitle">
+                            <img src="../images/dest/certificate.png">
                             <p class="priceText">
                                 Подарочный сертификат
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="container">
+            <div class="row flex-row">
+                <div class="col-xxl-8 col-xl-8 col-lg-6">
+                    <div class="maps">
+                        <div style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.by/maps/2/saint-petersburg/house/nevskiy_prospekt_140/Z0kYdQFpSUQFQFtjfXVzeHRmZw==/?ll=30.369634%2C59.929505&utm_medium=mapframe&utm_source=maps&z=17.26" style="color:#eee;font-size:12px;position:absolute;top:14px;">Невский проспект, 140 — Яндекс Карты</a><iframe  class="map" src="https://yandex.by/map-widget/v1/-/CCUZI6ec0B" width="856" height="604" frameborder="1" allowfullscreen="true" style="position:relative;border:none;border-radius:15px;"></iframe></div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-2">
+                    <div class="row flex-column">
+                        <div class="col-xxl-4 col-xl-4 col-lg-2">
+                            <div class="entryWrapper modify">
+                                <ul class="list">
+                                    <li class="listText">
+                                        <p class="title">Бассейн WorkClass</p>
+                                    </li>
+                                    <li class="listText">
+                                        <img src="../images/dest/marker.svg" alt="">
+                                        <p class="text">Невский 140</p>
+                                    </li>
+                                    <li class="listText">
+                                        <img src="../images/dest/metro.svg" alt="">
+                                        <p class="text">м. Спасская</p>
+                                    </li>
+                                    <li class="listText">
+                                        <img src="../images/dest/Group.svg" alt="">
+                                        <p class="text">Запись по договоренности</p>
+                                    </li>
+                                    <li class="listText">
+                                        <div class="btnWrapper">
+                                            <a class="btn">Записаться на сеанс</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-2">
+                            <div class="entryWrapper">
+                                <ul class="list">
+                                    <li class="listText">
+                                        <p class="title">Бассейн "На Гороховой"</p>
+                                    </li>
+                                    <li class="listText">
+                                        <img src="../images/dest/marker.svg" alt="">
+                                        <p class="text">3-й проезд Иванова</p>
+                                    </li>
+                                    <li class="listText">
+                                        <img src="../images/dest/metro.svg" alt="">
+                                        <p class="text">м. Крестовский остров</p>
+                                    </li>
+                                    <li class="listText">
+                                        <img src="../images/dest/Group.svg" alt="">
+                                        <p class="text">Запись по договоренности</p>
+                                    </li>
+                                    <li class="listText">
+                                        <div class="btnWrapper">
+                                            <a class="btn">Записаться на сеанс</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
