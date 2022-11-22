@@ -153,6 +153,10 @@
     line-height: 38px;
   }
 
+  .imgPrice {
+    padding-right: 15px
+  }
+
   .priceContainer {
     list-style-type: none;
     padding-top: 94px;
@@ -168,10 +172,11 @@
 
   .textTab {
     display: none;
-    font-family: el messiri, sans-serif;
-    font-size: 14px;
+    font-family: proxima-regular, sans-serif;
+    font-size: 15px;
     color: #fff;
     text-align: center;
+    padding-left: 40px;
   }
 
   .textTabActive {

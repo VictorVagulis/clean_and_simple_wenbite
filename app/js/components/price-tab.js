@@ -1,14 +1,13 @@
 $(document).ready(function () {
     $('.tabTrigger').click(function (e){
-      e.preventDefault();
+        e.preventDefault();
 
-    $('.tabTrigger').removeClass('tabTriggerActive');
-    $('.textTab').removeClass('textTabActive');
+        $('.textTab').removeClass('textTabActive');
 
-     $(this).addClass('tabTriggerActive');
-     $($(this).attr('href')).addClass('textTabActive');
+        $($(this).attr('href')).addClass('textTabActive');
 
     });
 
-    //$('.tabTrigger:first').click();
+    $('.tabTrigger:first').click();
+
 });

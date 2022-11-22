@@ -9,6 +9,7 @@
 @import './components/index';
 @import './components/footer';
 @import './components/current-news';
+@import './components/modal-window';
 
 //fonts
 
@@ -103,6 +104,12 @@ a {
   width: 155px;
   height: 36px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.headerBtn:hover {
+  background-color: #162831;
+  transition: 0.2s;
 }
 
 .copyright {
