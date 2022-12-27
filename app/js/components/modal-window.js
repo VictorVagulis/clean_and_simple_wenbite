@@ -1,19 +1,31 @@
-const modal = document.querySelector('.modalWindowWrapper');
-const modalBtn = document.querySelector('.headerBtn');
-const modalBtn2 = document.querySelector('.btn');
+const modalWrapper = document.querySelector('.modalWindowWrapper');
+const modal = document.querySelector('.modal');
+const headerModalBtn = document.querySelector('.headerBtn');
+const footerModalBtn = document.querySelectorAll('.btn');
 const close = document.querySelector('.close');
 const body = document.querySelector('body');
 
-    modalBtn.onclick = function () {
+    headerModalBtn.onclick = function () {
         modal.style.display = 'block';
         body.style.overflowY = 'hidden';
-    };
-    modalBtn2.onclick = function () {
-        modal.style.display = 'block';
-        body.style.overflowY = 'hidden';
+
+        if (modal.style.display === 'block') {
+            modalWrapper.onclick = function () {
+                modal.style.display = 'none';
+                body.style.overflowY = 'scroll';
+            };
+        }
+
     };
 
     close.onclick = function () {
         modal.style.display = 'none';
         body.style.overflowY = 'scroll';
     };
+
+    footerModalBtn.forEach(item => {
+        item.addEventListener('click', () => {
+            modal.style.display = 'block';
+            body.style.overflowY = 'hidden';
+        });
+    });

@@ -1,74 +1,84 @@
-.modalWindowWrapper {
+.modal {
   display: none;
 
-  .modalWindow {
+  .modalWindowWrapper {
     position: fixed;
-    top: 25%;
-    right: 24%;
-    width: 50%;
-    height: 50%;
-    background-color: #1d323d;
-    z-index: 1000;
-    border: 2px solid #000;
-    border-radius: 15px;
-  }
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 6;
 
-  .modalBtn {
-    position: absolute;
-    bottom: 12%;
-    right: 37%;
-    border-radius: 6px;
-    font-size: 22px;
-    cursor: pointer;
-    background-color: #6c7195;
-    color: #fff;
-    border: 0;
-  }
+    .modalWindow {
+      position: fixed;
+      top: 25%;
+      right: 24%;
+      width: 50%;
+      height: 50%;
+      background-color: #1d323d;
+      z-index: 1000;
+      border: 2px solid #000;
+      border-radius: 15px;
+    }
 
-  .modalBtn:hover {
-    background-color: #fff;
-    color: #000;
-  }
+    .modalBtn {
+      position: absolute;
+      bottom: 12%;
+      right: 37%;
+      border-radius: 6px;
+      font-size: 22px;
+      cursor: pointer;
+      background-color: #6c7195;
+      color: #fff;
+      border: 0;
+    }
 
-  .closeWrapper {
-    float: right;
-    padding: 10px 25px 0 0;
-  }
+    .modalBtn:hover {
+      background-color: #fff;
+      color: #000;
+    }
 
-  .close {
-    font-size: 50px;
-    margin: 0;
-  }
+    .closeWrapper {
+      float: right;
+      padding: 10px 25px 0 0;
+    }
 
-  .close:hover {
-    color: #d20000;
-    cursor: pointer;
-  }
+    .close {
+      font-size: 50px;
+      margin: 0;
+    }
 
-  input {
-    border: 1px solid #fff;
-    border-radius: 8px;
-    font-size: 18px;
-  }
+    .close:hover {
+      color: #d20000;
+      cursor: pointer;
+    }
 
-  label {
-    font-family: el messiri, sans-serif;
-    font-size: 23px;
-    color: #fff;
-  }
+    input {
+      border: 1px solid #fff;
+      border-radius: 8px;
+      font-size: 18px;
+    }
 
-  .title {
-    padding: 0 0 0 47px;
-    font-size: 21px;
-    color: #fff;
-    font-family: el messiri, sans-serif;
-  }
+    label {
+      font-family: el messiri, sans-serif;
+      font-size: 23px;
+      color: #fff;
+    }
 
-  .buttonWrapper {
-    text-align: center;
-  }
+    .title {
+      padding: 0 0 0 47px;
+      font-size: 21px;
+      color: #fff;
+      font-family: el messiri, sans-serif;
+    }
 
-  .inputWrapper {
-    padding-left: 46px;
+    .buttonWrapper {
+      text-align: center;
+    }
+
+    .inputWrapper {
+      padding-left: 46px;
+    }
   }
 }

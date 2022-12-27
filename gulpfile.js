@@ -34,7 +34,8 @@ async function html(){
 function scripts() {
     return src([
         'node_modules/jquery/dist/jquery.min.js',
-        'app/js/app.js',
+        'app/js/**/*.js',
+        '!app/js/app.min.js',
     ])
         .pipe(concat('app.min.js'))
         .pipe(uglify())
